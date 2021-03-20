@@ -1,4 +1,4 @@
-package calculator-go
+package calculator
 
 // プライベートにする要素は、名前の先頭を小文字にします。
 // パブリックにする要素は、名前の先頭を大文字にします。
@@ -14,5 +14,3 @@ func internalSum(number int) int {
 func Sum(number1, number2 int) int {
 	return number1 + number2
 }
-
-
